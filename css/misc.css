@@ -1,0 +1,197 @@
+body {
+    background: var(--page); 
+    background-size: cover;
+	  background-position: right; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: var(--text);
+    margin: 0px;
+  }
+  h1 {
+    color: var(--theme-t);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Title";
+    text-shadow: var(--theme-t) 3px 0 10px;
+    margin-top: 70px;
+  }
+
+  hr {
+    border: 1px solid var(--text);
+    width: 75%;
+    margin-bottom: 16px;
+  }
+
+  #subtitle {
+    color: var(--text-secondary);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    animation: subtitleAnim 1.5s ease-in-out infinite;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  #subtitle a {
+    color: #aaaaff;
+    font-size: 1.4em;
+  }
+  #subtitle a:visited {
+    color: #aa55ff;
+  }
+
+  .about {
+    flex-direction: column;
+    margin: 0 auto;
+    flex-grow: 1;
+    justify-content: center;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 15px;
+    width: 65%;
+  }
+
+  .about .info {
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about p {
+    margin: 0;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  h2 {
+    color: var(--theme-t);
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Title";
+    text-shadow: var(--theme-t) 3px 0 10px;
+    margin-top: 65px;
+    margin-bottom: 39.840px;
+  }
+
+  p {
+    color: var(--text);
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    padding: 15px;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+  }
+  
+  .content {
+	z-index: 2;
+	display: flex;
+	position: relative;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	color: var(--text);
+	font-family: "Raleway", sans-serif;
+    }
+
+    button {
+        background: var(--theme);
+        width: 50vh;
+        height: 2.5em;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-secondary);
+        text-shadow: var(--text-secondary) 1px 0 12px;
+        font-size: 2.2em;
+        border: 0;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+      }
+  
+      .buttons {
+      padding-top: 30px;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 40vw;
+      margin: 0;
+      border-radius: 10px;
+      display: flex;
+      position: relative;
+      transition: transform 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+  }
+  
+      button:hover {
+        transform: scale(1.2);
+      }
+
+      .section_faq {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section_faq h1 {
+        margin-top: 39.840px;
+    }
+
+    .section_faq ul {
+        margin: 3rem auto;
+        width: 75%;
+        max-width: 900px;
+        padding-left: 0;
+    }
+
+    .section_faq ul li {
+        list-style: none;
+        margin-bottom: 8px;
+    }
+
+    .section_faq .question {
+        margin-bottom: 1px;
+        padding: 20px;
+        width: 95%;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 400;
+        cursor: pointer;
+        color: var(--text);
+        font-family: "Bam";
+    }
+
+    .section_faq .answer {
+        max-height: 0;
+        width: 94%;
+        background-color: rgba(0,0,0,0.3);
+        margin-left: 25px;
+        overflow: hidden;
+        font-size: 20px;
+        transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+        color: var(--text-secondary);
+    }
+
+    .section_faq .answer span {
+        display: inline-block;
+        padding: 1.2rem;
+    }
+
+    .section_faq .question.open + .answer {
+        max-height: 1200px;
+    }

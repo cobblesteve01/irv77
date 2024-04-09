@@ -1,0 +1,157 @@
+body[data-theme="default"] {
+  --background: #1d0e1a;
+  --theme: #600008;
+  --theme-ts: #9d4750;
+  --theme-t: #cc4343;
+  --text: #e5e5e5;
+  --text-secondary: #ffffff;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="classic"] {
+  --background: #0d011c;
+  --theme: #080d51;
+  --theme-ts: #1e00b360;
+  --theme-t: #eaeaff;
+  --text: #d4d4d4;
+  --text-secondary: #9e9e9e;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="light"] {
+  --background: #cccccc;
+  --theme: #527fbf;
+  --theme-ts: #579eff;
+  --theme-t: #10e8ef;
+  --text: #ffffff;
+  --text-secondary: #d2d2d2;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="dark"] {
+  --background: #000000;
+  --theme: #242424;
+  --theme-ts: #444444;
+  --theme-t: #c58b02;
+  --text: #b89113;
+  --text-secondary: #8f690a;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="con"] {
+  --background: #17191d;      
+  --theme: #1b71d9;           
+  --theme-ts: #3a3f4b;
+  --theme-t: #0cace6;      
+  --text: #d0d0db;
+  --text-secondary: #f4f3ff;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}  
+
+body[data-theme="sumpeach"] {
+  --background: #08253d;
+  --theme: #b55e71;
+  --theme-ts: #ff7190;
+  --theme-t: #e62323;
+  --text: #ffffff;
+  --text-secondary: #ff9a9a;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="cansh"] {
+  --background: #19597d;
+  --theme: #c0c017;
+  --theme-ts: #e4de1e60;
+  --theme-t: #f01039;
+  --text: #de348c;
+  --text-secondary: #970e0e;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="rblue"] {
+  --background: #262033;
+  --theme: #5a285a;
+  --theme-ts: #442866;
+  --theme-t: #a12fff;
+  --text: #bdb9a2;
+  --text-secondary: #fff5e3;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="retro"] {
+  --background: #564542;
+  --theme: #493635;
+  --theme-ts: #382929;
+  --theme-t: #edae7a;
+  --text: #edc3a1;
+  --text-secondary: #ffe6d6;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="spill"] {
+  --background: #eec539;
+  --theme: #e52a1a;
+  --theme-ts: #dc2f67;
+  --theme-t: #16c53c;
+  --text: #007bff;
+  --text-secondary: #f0ebd9;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="darker"] {
+  --background: #000000;
+  --theme: #161616;
+  --theme-ts: #0b0b0b;
+  --theme-t: #ffffff;
+  --text: #414141;
+  --text-secondary: #232323;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="fo"] {
+  --background: #872015;
+  --theme: #bf2413;
+  --theme-ts: #e3b865;
+  --theme-t: #ffffff;
+  --text: #ffffff;
+  --text-secondary: #bbbbbb;
+  --home: linear-gradient(45deg, var(--background), var(--theme));
+  --page: linear-gradient(45deg, var(--theme-ts), var(--background));
+}
+
+body[data-theme="glitch"] {
+  --background: #3baf11;
+  --theme: #0edc3057;
+  --theme-ts: #09460a51;
+  --theme-t: #13ab48;
+  --text: #13a747a6;
+  --text-secondary: #06a80e82;
+  --home: url(https://irv77.netlify.app/img/glitch.png);
+  --page: url(https://irv77.netlify.app/img/glitch.png);
+}
+
+@font-face {
+  font-family: Title;
+  src: url(../img/MokotoGlitchMark.ttf);
+}
+
+@font-face {
+font-family: CopyR;
+src: url(../img/CopyrightViolation.ttf);
+}
+
+@font-face {
+  font-family: Bam;
+  src: url(../img/Bamtang.ttf);
+}

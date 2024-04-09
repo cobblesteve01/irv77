@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="../js/scrollres.js"></script>
+<link rel="icon" type="image/x-icon" href="../img/newlogo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IRV77's Emulator Games</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/themes.css">
+  <script src="../js/crate-3.js" async="" defer="">
+    new Crate({
+        server: '1205316076330684507', // IRV77
+        channel: '1205316222712021022' // #website-chat
+    })
+</script>
+<script>
+  window.addEventListener("scroll", function() {
+  var topbar = document.querySelector(".topbar");
+  topbar.classList.toggle("scrolled", window.scrollY > 0);
+});
+</script>
+<script>
+  window.addEventListener("load", function() {
+    document.getElementById("preloader").style.display = "none";
+      console.log("Loaded!");
+  })
+</script>
+<body data-theme="default" style="margin-top: 60px;">
+  <div id="preloader"></div>
+  <div id="navbar">
+  </div>
+<div class="topbar">
+  <div class="text-center">
+    <input type="text" class="text-center" id="mySearch" onload="startSearch()" onkeyup="startSearch()" placeholder="Search for games..." title="Search">
+  </div>
+  <a href="javascript:void(0);" onclick="openRandomIframe()">
+    <svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  stroke="none"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="rand icon icon-tabler icons-tabler-outline icon-tabler-dice-5"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><circle cx="8.5" cy="8.5" r=".5" fill="currentColor" /><circle cx="15.5" cy="8.5" r=".5" fill="currentColor" /><circle cx="15.5" cy="15.5" r=".5" fill="currentColor" /><circle cx="8.5" cy="15.5" r=".5" fill="currentColor" /><circle cx="12" cy="12" r=".5" fill="currentColor" /></svg></a>
+</a>
+</div>
+  <script src="../js/search.js"></script>
+  <br>
+  <div id="search" class="flex-container">
+  </div>
+  <script src="../js/generateemulatorgames.js"></script>
+  <script src="../js/rando.js"></script>
+  <script src="../js/index.js"></script>
+  <widgetbot-crate src="https://widgetbot.io" docs="docs.widgetbot.io"><crate><div></div></crate></widgetbot-crate>
+  <div class="copy"></div>
+  <script src="../js/navbar.js"></script>
+ <script src="../js/polyfill.js"></script>
+  <script src="../js/theme.js"></script>
+  
+  
+</body>

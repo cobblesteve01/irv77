@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="../css/settings.css" />
+    <link rel="stylesheet" href="../css/themes.css" />
+    <title id="pageTitle">IRV77's Settings</title>
+    <link rel="icon" href="../img/newlogo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h1 style="font-size: 3rem; margin-left: 10px;">Settings</h1>
+    <img style="max-width: 100%;" src="../img/divider.png" />
+    <div style="margin: 15px;">
+    <h2>Tab Cloak</h2>
+    <div class="buttons">
+      <p>Title:</p>
+      <input
+        id="title"
+        class="input"
+        placeholder="Title Name"
+        onkeyup="setTitle(this.value)"
+      />
+      <br />
+      <p>Favicon:</p>
+      <input
+        id="icon"
+        class="input"
+        placeholder="Website Address"
+        onkeyup="setFavicon(this.value.trim())"
+      />
+      <br />
+      <br />
+      <button class="button" onclick="resetTab()">Reset</button>
+    </div>
+    <br />
+    <hr />
+    <div class="section-title">Tab Cloak Presets</div>
+    <p>When choosing a preset on Safari, it won't change anymore after the first try (EVER)!<p></p>
+    <div id="buttons-container"></div>
+    <br>
+    <hr />
+    <h2>Panic Button</h1>
+    <p>When Enabled Press ` to Open Your Set Panic Address<p>
+    <div class="panic">
+        <button class="button" onclick="panOn()">Enable</button>
+        <button class="button" onclick="panOff()">Disable</button>
+        <br>
+        <br>
+        <input
+            id="panic-address"
+            value=""
+            placeholder="Panic Address"
+            autocomplete="on"
+            type="text"
+          />
+    </div>
+    <br>
+    <hr />
+    <h2>About:Blank Embeder</h2>
+    <div class="console">
+      <div class="consolebody">
+        <p>Enter a URL you want to be opened in an about:blank page below:</p>
+        <p class="console-input">
+          <input
+            id="url-target"
+            value=""
+            placeholder="Website Address"
+            autocomplete="on"
+            type="text"
+          />
+        </p>
+      </div>
+      <div class="button-wrapper">
+        <button id="create" class="console-button">Create page</button>
+      </div>
+    </div>
+    <br>
+  </div>
+  <br>
+  <br>
+    <script src="../js/cloak.js"></script>
+    <script src="../js/aboutblank.js"></script>
+    <script src="../js/settings.js"></script>
+    <script src="../js/index.js"></script>
+    <div class="copy"></div>
+    <script src="../js/theme.js"></script>
+    <script src="../js/navbar.js"></script>
+  </body>
+</html>
