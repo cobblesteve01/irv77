@@ -254,30 +254,30 @@ window.addEventListener('DOMContentLoaded', function() {
 <nav>
   <ul>
     <li style="width: 3vw;"></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/index.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/index.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
     </svg><span> Home</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/about.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/about.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
     </svg><span> About</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/games.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/games.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z"></path><path d="M6 12h4m-2 -2v4"></path><path d="M15 11l0 .01"></path><path d="M18 13l0 .01"></path>
     </svg><span> Games</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/chat.html"><svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/chat.html"><svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10"></path><path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2"></path>
     </svg><span> Discord</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/extra.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/extra.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M20 4v8"></path><path d="M16 4.5v7"></path><path d="M12 5v16"></path><path d="M8 5.5v5"></path><path d="M4 6v4"></path><path d="M20 8h-16"></path>
     </svg><span> Extras</span></a></li>
-    <li><a href="https://irv77.netlify.app/html/themes.html">
+    <li><a href="https://irv77.bitbucket.io/html/themes.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="theme" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <path d="M3 21v-4a4 4 0 1 1 4 4h-4"></path><path d="M21 3a16 16 0 0 0 -12.8 10.2"></path><path d="M21 3a16 16 0 0 1 -10.2 12.8"></path><path d="M10.6 9a9 9 0 0 1 4.4 4.4"></path></svg>
   </a></li>
-    <li><a href="https://irv77.netlify.app/html/settings.html">
+    <li><a href="https://irv77.bitbucket.io/html/settings.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="settings" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <path d="M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M6 4v4"></path><path d="M6 12v8"></path><path d="M10 16a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M12 4v10"></path><path d="M12 18v2"></path><path d="M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M18 4v1"></path><path d="M18 9v11"></path>
     </svg>
@@ -290,30 +290,30 @@ window.addEventListener('DOMContentLoaded', function() {
   <div class="bar3"></div>
   <ul class="mobile-menu">
     <li style="height: 20vh; list-style-type: none;"></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/index.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/index.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M5 12l-2 0l9 -9l9 9l-2 0"></path><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"></path>
     </svg><span> Home</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/about.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/about.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
     </svg><span> About</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/games.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/games.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z"></path><path d="M6 12h4m-2 -2v4"></path><path d="M15 11l0 .01"></path><path d="M18 13l0 .01"></path>
     </svg><span> Games</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/chat.html"><svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/chat.html"><svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10"></path><path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2"></path>
     </svg><span> Discord</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/extra.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/extra.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
       <path d="M20 4v8"></path><path d="M16 4.5v7"></path><path d="M12 5v16"></path><path d="M8 5.5v5"></path><path d="M4 6v4"></path><path d="M20 8h-16"></path>
     </svg><span> Extras</span></a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/themes.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/themes.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <path d="M3 21v-4a4 4 0 1 1 4 4h-4"></path><path d="M21 3a16 16 0 0 0 -12.8 10.2"></path><path d="M21 3a16 16 0 0 1 -10.2 12.8"></path><path d="M10.6 9a9 9 0 0 1 4.4 4.4"></path></svg><span> Themes</span>
   </a></li>
-    <li class="hvuncen"><a href="https://irv77.netlify.app/html/settings.html">
+    <li class="hvuncen"><a href="https://irv77.bitbucket.io/html/settings.html">
     <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <path d="M4 10a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M6 4v4"></path><path d="M6 12v8"></path><path d="M10 16a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M12 4v10"></path><path d="M12 18v2"></path><path d="M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path d="M18 4v1"></path><path d="M18 9v11"></path>
     </svg><span> Settings</span>

@@ -5,43 +5,43 @@
       "games": [
         [
           "30 Dollar Soundboard",
-          "https://irv77.netlify.app/html/games/other/sdw/logo.png",
+          "https://irv77.bitbucket.io/html/games/other/sdw/logo.png",
           "/html/games/other/sdw/index.html",
           ""
         ],
         [
           "Fake Update",
-          "https://irv77.netlify.app/html/games/other/fakeupdate/assets/img/1.png",
+          "https://irv77.bitbucket.io/html/games/other/fakeupdate/assets/img/1.png",
           "/html/games/other/fakeupdate/index.html",
           ""
         ],
         [
           "HTML Editor",
-          "https://irv77.netlify.app/html/games/other/htmleditor/html.png",
+          "https://irv77.bitbucket.io/html/games/other/htmleditor/html.png",
           "/html/games/other/htmleditor/index.html",
           "A live HTML Editor written in, you guessed it, HTML (and css and javascript)"
         ],
         [
           "LioProxy",
-          "https://irv77.netlify.app/img/prox.jpg",
+          "https://irv77.bitbucket.io/img/prox.jpg",
           "https://5e4r06.sse.codesandbox.io/index.html",
           ""
         ],
         [
           "NetSpate",
-          "https://irv77.netlify.app/img/netspate.png",
+          "https://irv77.bitbucket.io/img/netspate.png",
           "https://netspate.netlify.app/home.html",
           ""
         ],
         [
           "Ruffle",
-          "https://irv77.netlify.app/img/ruffle.png",
+          "https://irv77.bitbucket.io/img/ruffle.png",
           "/html/games/flash/index.html",
           ""
         ],
         [
           "WebRetro",
-          "https://irv77.netlify.app/html/games/other/webretro/assets/icons/icon204.png",
+          "https://irv77.bitbucket.io/html/games/other/webretro/assets/icons/icon204.png",
           "/html/games/other/webretro/index.html",
           "WebRetro is an everything emulator for your browser"
         ]

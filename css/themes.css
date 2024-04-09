@@ -137,8 +137,8 @@ body[data-theme="glitch"] {
   --theme-t: #13ab48;
   --text: #13a747a6;
   --text-secondary: #06a80e82;
-  --home: url(https://irv77.netlify.app/img/glitch.png);
-  --page: url(https://irv77.netlify.app/img/glitch.png);
+  --home: url(https://irv77.bitbucket.io/img/glitch.png);
+  --page: url(https://irv77.bitbucket.io/img/glitch.png);
 }
 
 @font-face {

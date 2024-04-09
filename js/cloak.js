@@ -1,4 +1,4 @@
-fetch("https://irv77.netlify.app/cloak.json").then((response)=>response.json()).then((data)=>{
+fetch("https://irv77.bitbucket.io/cloak.json").then((response)=>response.json()).then((data)=>{
   const container = document.getElementById("buttons-container");
   data.forEach((link)=>{
       const img = document.createElement("img");

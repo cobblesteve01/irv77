@@ -11,7 +11,7 @@ if (tab) {
 
 const settingsDefaultTab = {
   title: "Settings | IRV77",
-  icon: "img/newlogo.png",
+  icon: "https://irv77.bitbucket.io/img/newlogo.png",
 };
 
 const setTitle = (title = "") => {
