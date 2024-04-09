@@ -12,7 +12,7 @@ const logArr = [
   },
   **/
   {
-    version: `1.12.1`,
+    version: `1.12.2`,
     date: `April 9, 2024 `,
     list: [
       {
@@ -20,7 +20,7 @@ const logArr = [
         detail: `Changed the domain to the current one!`
       },
       {
-        label: [`blocked`],
+        label: [`remove`],
         detail: `They finally blocked irv77.netlify.app`
       }
     ]
